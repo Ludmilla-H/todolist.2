@@ -8,7 +8,7 @@
         <div class="card rounded-3">
           <div class="card-body p-4">
 
-            <h4 class="text-center my-3 pb-3">To Do </h4>
+            <h4 class="text-center my-3 pb-3">To Do List </h4>
 
             <form action="edit.php?mod=add" method="post" class="row row-cols-lg-auto g-3 justify-content-center align-items-center mb-4 pb-2">
               <div class="col-12">
@@ -55,8 +55,8 @@
                   <td>we can do it</td>
                   <td>
 
-                    <a href= "edit.php?mod=upd&id=<?php echo $obj->id; ?>" class="btn btn-danger">Delete</a>
-                    <a href= "edit.php?mod=del&id=<?php echo $obj->id; ?>" class="btn btn-success ms-1">Finished</a>
+                    <a href= "edit.php?mod=del&id=<?php echo $obj->id; ?>" class="btn btn-danger">Delete</a>
+                    <a href= "edit.php?mod=upd&id=<?php echo $obj->id; ?>" class="btn btn-success ms-1">Finished</a>
                   </td>
                 </tr>
 
